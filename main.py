@@ -28,4 +28,4 @@ num = test(fibnum, iters)
 end = math.floor(time.time() * 1000)
 
 print("Answer: " + str(num))
-print(str(end - start) + " milliseconds\n")
+print("Time: " + str(end - start) + " milliseconds\n")
