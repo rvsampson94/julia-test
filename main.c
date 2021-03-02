@@ -38,7 +38,7 @@ int main(int argc, char* argv[]) {
     printf(
         "Answer: %u\nTime: %u milliseconds\n\n",
         num,
-        ((end.tv_sec - start.tv_sec) * 1000000 + end.tv_usec - start.tv_usec) / 1000
+        (unsigned int)((end.tv_sec - start.tv_sec) * 1000000 + end.tv_usec - start.tv_usec) / 1000
     );
     return 0;
 }
